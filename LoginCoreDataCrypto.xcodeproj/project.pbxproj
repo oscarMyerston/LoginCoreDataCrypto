@@ -17,6 +17,8 @@
 		489174CC2747327500199489 /* LoginCoreDataCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489174CB2747327500199489 /* LoginCoreDataCryptoTests.swift */; };
 		489174D62747327500199489 /* LoginCoreDataCryptoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489174D52747327500199489 /* LoginCoreDataCryptoUITests.swift */; };
 		489174D82747327500199489 /* LoginCoreDataCryptoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489174D72747327500199489 /* LoginCoreDataCryptoUITestsLaunchTests.swift */; };
+		489174EE27473B1100199489 /* Login+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489174EC27473B1100199489 /* Login+CoreDataClass.swift */; };
+		489174EF27473B1100199489 /* Login+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489174ED27473B1100199489 /* Login+CoreDataProperties.swift */; };
 		58F8560EB400F88D7219D76B /* Pods_LoginCoreDataCryptoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDDB6021B689FD75CCC2559 /* Pods_LoginCoreDataCryptoTests.framework */; };
 		951C3978EEED48BA42C290B9 /* Pods_LoginCoreDataCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15590EDD827D9EF43AF080DF /* Pods_LoginCoreDataCrypto.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +57,8 @@
 		489174D12747327500199489 /* LoginCoreDataCryptoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginCoreDataCryptoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		489174D52747327500199489 /* LoginCoreDataCryptoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoreDataCryptoUITests.swift; sourceTree = "<group>"; };
 		489174D72747327500199489 /* LoginCoreDataCryptoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoreDataCryptoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		489174EC27473B1100199489 /* Login+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Login+CoreDataClass.swift"; path = "LoginCoreDataCrypto/Login+CoreDataClass.swift"; sourceTree = "<group>"; };
+		489174ED27473B1100199489 /* Login+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Login+CoreDataProperties.swift"; path = "LoginCoreDataCrypto/Login+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8FDDB6021B689FD75CCC2559 /* Pods_LoginCoreDataCryptoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginCoreDataCryptoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		933FCF0950EE2E90CA66E665 /* Pods-LoginCoreDataCryptoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginCoreDataCryptoTests.debug.xcconfig"; path = "Target Support Files/Pods-LoginCoreDataCryptoTests/Pods-LoginCoreDataCryptoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3656FECDB3DFF2FFD5772FD /* Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests/Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 		489174A52747327200199489 = {
 			isa = PBXGroup;
 			children = (
+				489174EC27473B1100199489 /* Login+CoreDataClass.swift */,
+				489174ED27473B1100199489 /* Login+CoreDataProperties.swift */,
 				489174B02747327200199489 /* LoginCoreDataCrypto */,
 				489174CA2747327500199489 /* LoginCoreDataCryptoTests */,
 				489174D42747327500199489 /* LoginCoreDataCryptoUITests */,
@@ -405,8 +411,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				489174EE27473B1100199489 /* Login+CoreDataClass.swift in Sources */,
 				489174B62747327200199489 /* ViewController.swift in Sources */,
 				489174B22747327200199489 /* AppDelegate.swift in Sources */,
+				489174EF27473B1100199489 /* Login+CoreDataProperties.swift in Sources */,
 				489174BC2747327200199489 /* LoginCoreDataCrypto.xcdatamodeld in Sources */,
 				489174B42747327200199489 /* SceneDelegate.swift in Sources */,
 			);

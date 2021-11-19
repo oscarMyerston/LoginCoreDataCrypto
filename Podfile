@@ -5,6 +5,7 @@ target 'LoginCoreDataCrypto' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'Alamofire'
+  pod 'CryptoSwift'
   # Pods for LoginCoreDataCrypto
 
   target 'LoginCoreDataCryptoTests' do
