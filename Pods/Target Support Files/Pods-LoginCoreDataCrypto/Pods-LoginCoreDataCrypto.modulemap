@@ -1,0 +1,6 @@
+framework module Pods_LoginCoreDataCrypto {
+  umbrella header "Pods-LoginCoreDataCrypto-umbrella.h"
+
+  export *
+  module * { export * }
+}

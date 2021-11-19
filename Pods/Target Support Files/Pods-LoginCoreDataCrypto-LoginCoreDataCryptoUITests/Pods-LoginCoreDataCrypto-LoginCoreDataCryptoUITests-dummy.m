@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_LoginCoreDataCrypto_LoginCoreDataCryptoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_LoginCoreDataCrypto_LoginCoreDataCryptoUITests
+@end

@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CC62BDD184D1BBA911CC817 /* Pods_LoginCoreDataCrypto_LoginCoreDataCryptoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EB3F9EC7BA4790B4C697EC /* Pods_LoginCoreDataCrypto_LoginCoreDataCryptoUITests.framework */; };
 		489174B22747327200199489 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489174B12747327200199489 /* AppDelegate.swift */; };
 		489174B42747327200199489 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489174B32747327200199489 /* SceneDelegate.swift */; };
 		489174B62747327200199489 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489174B52747327200199489 /* ViewController.swift */; };
-		489174B92747327200199489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489174B72747327200199489 /* Main.storyboard */; };
 		489174BC2747327200199489 /* LoginCoreDataCrypto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 489174BA2747327200199489 /* LoginCoreDataCrypto.xcdatamodeld */; };
 		489174BE2747327500199489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489174BD2747327500199489 /* Assets.xcassets */; };
 		489174C12747327500199489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489174BF2747327500199489 /* LaunchScreen.storyboard */; };
 		489174CC2747327500199489 /* LoginCoreDataCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489174CB2747327500199489 /* LoginCoreDataCryptoTests.swift */; };
 		489174D62747327500199489 /* LoginCoreDataCryptoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489174D52747327500199489 /* LoginCoreDataCryptoUITests.swift */; };
 		489174D82747327500199489 /* LoginCoreDataCryptoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489174D72747327500199489 /* LoginCoreDataCryptoUITestsLaunchTests.swift */; };
+		58F8560EB400F88D7219D76B /* Pods_LoginCoreDataCryptoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDDB6021B689FD75CCC2559 /* Pods_LoginCoreDataCryptoTests.framework */; };
+		951C3978EEED48BA42C290B9 /* Pods_LoginCoreDataCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15590EDD827D9EF43AF080DF /* Pods_LoginCoreDataCrypto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15590EDD827D9EF43AF080DF /* Pods_LoginCoreDataCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginCoreDataCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F13111884F1E98665DB8BB /* Pods-LoginCoreDataCrypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginCoreDataCrypto.release.xcconfig"; path = "Target Support Files/Pods-LoginCoreDataCrypto/Pods-LoginCoreDataCrypto.release.xcconfig"; sourceTree = "<group>"; };
+		43ACE8E631EEE46B1900DEEA /* Pods-LoginCoreDataCryptoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginCoreDataCryptoTests.release.xcconfig"; path = "Target Support Files/Pods-LoginCoreDataCryptoTests/Pods-LoginCoreDataCryptoTests.release.xcconfig"; sourceTree = "<group>"; };
 		489174AE2747327200199489 /* LoginCoreDataCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginCoreDataCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		489174B12747327200199489 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		489174B32747327200199489 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		489174B52747327200199489 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		489174B82747327200199489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		489174BB2747327200199489 /* LoginCoreDataCrypto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginCoreDataCrypto.xcdatamodel; sourceTree = "<group>"; };
 		489174BD2747327500199489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		489174C02747327500199489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		489174D12747327500199489 /* LoginCoreDataCryptoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginCoreDataCryptoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		489174D52747327500199489 /* LoginCoreDataCryptoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoreDataCryptoUITests.swift; sourceTree = "<group>"; };
 		489174D72747327500199489 /* LoginCoreDataCryptoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoreDataCryptoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8FDDB6021B689FD75CCC2559 /* Pods_LoginCoreDataCryptoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginCoreDataCryptoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933FCF0950EE2E90CA66E665 /* Pods-LoginCoreDataCryptoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginCoreDataCryptoTests.debug.xcconfig"; path = "Target Support Files/Pods-LoginCoreDataCryptoTests/Pods-LoginCoreDataCryptoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3656FECDB3DFF2FFD5772FD /* Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests/Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7EB3F9EC7BA4790B4C697EC /* Pods_LoginCoreDataCrypto_LoginCoreDataCryptoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginCoreDataCrypto_LoginCoreDataCryptoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DB9A56DF773C8AB5B0ED28 /* Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests.release.xcconfig"; path = "Target Support Files/Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests/Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F99B64FDC85F54E91C25DE9E /* Pods-LoginCoreDataCrypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginCoreDataCrypto.debug.xcconfig"; path = "Target Support Files/Pods-LoginCoreDataCrypto/Pods-LoginCoreDataCrypto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951C3978EEED48BA42C290B9 /* Pods_LoginCoreDataCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58F8560EB400F88D7219D76B /* Pods_LoginCoreDataCryptoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC62BDD184D1BBA911CC817 /* Pods_LoginCoreDataCrypto_LoginCoreDataCryptoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EFCE397058CC0B88F2A7DCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F99B64FDC85F54E91C25DE9E /* Pods-LoginCoreDataCrypto.debug.xcconfig */,
+				37F13111884F1E98665DB8BB /* Pods-LoginCoreDataCrypto.release.xcconfig */,
+				D3656FECDB3DFF2FFD5772FD /* Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests.debug.xcconfig */,
+				E9DB9A56DF773C8AB5B0ED28 /* Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests.release.xcconfig */,
+				933FCF0950EE2E90CA66E665 /* Pods-LoginCoreDataCryptoTests.debug.xcconfig */,
+				43ACE8E631EEE46B1900DEEA /* Pods-LoginCoreDataCryptoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		489174A52747327200199489 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,8 @@
 				489174CA2747327500199489 /* LoginCoreDataCryptoTests */,
 				489174D42747327500199489 /* LoginCoreDataCryptoUITests */,
 				489174AF2747327200199489 /* Products */,
+				3EFCE397058CC0B88F2A7DCA /* Pods */,
+				D8AED675E5B782A175317179 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +132,6 @@
 				489174B12747327200199489 /* AppDelegate.swift */,
 				489174B32747327200199489 /* SceneDelegate.swift */,
 				489174B52747327200199489 /* ViewController.swift */,
-				489174B72747327200199489 /* Main.storyboard */,
 				489174BD2747327500199489 /* Assets.xcassets */,
 				489174BF2747327500199489 /* LaunchScreen.storyboard */,
 				489174C22747327500199489 /* Info.plist */,
@@ -130,6 +157,16 @@
 			path = LoginCoreDataCryptoUITests;
 			sourceTree = "<group>";
 		};
+		D8AED675E5B782A175317179 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15590EDD827D9EF43AF080DF /* Pods_LoginCoreDataCrypto.framework */,
+				E7EB3F9EC7BA4790B4C697EC /* Pods_LoginCoreDataCrypto_LoginCoreDataCryptoUITests.framework */,
+				8FDDB6021B689FD75CCC2559 /* Pods_LoginCoreDataCryptoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 489174DB2747327500199489 /* Build configuration list for PBXNativeTarget "LoginCoreDataCrypto" */;
 			buildPhases = (
+				1F79C6373FEE211EF6B29CA3 /* [CP] Check Pods Manifest.lock */,
 				489174AA2747327200199489 /* Sources */,
 				489174AB2747327200199489 /* Frameworks */,
 				489174AC2747327200199489 /* Resources */,
+				236422BA49C4272AB1A34101 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 489174DE2747327500199489 /* Build configuration list for PBXNativeTarget "LoginCoreDataCryptoTests" */;
 			buildPhases = (
+				BC31EF710F61B8088E897039 /* [CP] Check Pods Manifest.lock */,
 				489174C32747327500199489 /* Sources */,
 				489174C42747327500199489 /* Frameworks */,
 				489174C52747327500199489 /* Resources */,
@@ -172,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 489174E12747327500199489 /* Build configuration list for PBXNativeTarget "LoginCoreDataCryptoUITests" */;
 			buildPhases = (
+				D6381C0E0358FD2BCBCD3FBE /* [CP] Check Pods Manifest.lock */,
 				489174CD2747327500199489 /* Sources */,
 				489174CE2747327500199489 /* Frameworks */,
 				489174CF2747327500199489 /* Resources */,
+				9A58E63110DBEB52293D66C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +278,6 @@
 			files = (
 				489174C12747327500199489 /* LaunchScreen.storyboard in Resources */,
 				489174BE2747327500199489 /* Assets.xcassets in Resources */,
-				489174B92747327200199489 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +296,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F79C6373FEE211EF6B29CA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginCoreDataCrypto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		236422BA49C4272AB1A34101 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginCoreDataCrypto/Pods-LoginCoreDataCrypto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginCoreDataCrypto/Pods-LoginCoreDataCrypto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginCoreDataCrypto/Pods-LoginCoreDataCrypto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A58E63110DBEB52293D66C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests/Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests/Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests/Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC31EF710F61B8088E897039 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginCoreDataCryptoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6381C0E0358FD2BCBCD3FBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		489174AA2747327200199489 /* Sources */ = {
@@ -301,14 +445,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		489174B72747327200199489 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				489174B82747327200199489 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		489174BF2747327500199489 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,6 +574,7 @@
 		};
 		489174DC2747327500199489 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99B64FDC85F54E91C25DE9E /* Pods-LoginCoreDataCrypto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,7 +585,6 @@
 				INFOPLIST_FILE = LoginCoreDataCrypto/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -466,6 +602,7 @@
 		};
 		489174DD2747327500199489 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F13111884F1E98665DB8BB /* Pods-LoginCoreDataCrypto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,7 +613,6 @@
 				INFOPLIST_FILE = LoginCoreDataCrypto/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -494,6 +630,7 @@
 		};
 		489174DF2747327500199489 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933FCF0950EE2E90CA66E665 /* Pods-LoginCoreDataCryptoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +656,7 @@
 		};
 		489174E02747327500199489 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43ACE8E631EEE46B1900DEEA /* Pods-LoginCoreDataCryptoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +682,7 @@
 		};
 		489174E22747327500199489 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3656FECDB3DFF2FFD5772FD /* Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +706,7 @@
 		};
 		489174E32747327500199489 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9DB9A56DF773C8AB5B0ED28 /* Pods-LoginCoreDataCrypto-LoginCoreDataCryptoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
